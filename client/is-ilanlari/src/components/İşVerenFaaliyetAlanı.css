@@ -1,0 +1,113 @@
+.profil-faaliyet-alanı {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem ;
+}
+.Sil {
+    margin-left: 4rem;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+.profil-faaliyet-alanı .başlık{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 0;
+    background-color: rgb(112, 95, 95);
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border-radius: 5px;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.profil-faaliyet-alanı .profil-şirket-faaliyet-içerik{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-bottom: 5px rgb(112, 95, 95) solid;
+}
+.profil-faaliyet-alanı .profil-şirket-faaliyet-içerik .faaliyet-input{
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+.profil-faaliyet-alanı .profil-şirket-faaliyet-içerik .faaliyet-input textarea{
+    width: 100%;
+    resize: none;
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 600;
+    font-size: large;
+    padding: 5px;
+}
+.profil-faaliyet-alanı .profil-şirket-faaliyet-içerik .ekle-butonu {
+    width: auto;
+    height: auto;
+    padding-left: 1rem;
+}
+.profil-faaliyet-alanı .profil-şirket-faaliyet-içerik .ekle-butonu a {
+    background-color: green;
+    padding: 1rem;
+    color: white;
+    border-radius: 5px;    
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 600;
+    cursor: pointer;
+}
+.profil-faaliyet-alanı .maddeler {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+}
+.profil-faaliyet-alanı .maddeler .maddeler-başlık {
+    width: 50%;
+    height: auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(112, 95, 95);
+    font-weight: 600;
+    font-size: 2rem;
+    border-bottom: 5px rgb(112, 95, 95) solid;
+    font-family: 'Expletus Sans', cursive;
+    border-radius: 5px;
+    padding: 5px;
+}
+.profil-faaliyet-alanı .maddeler .maddeler-eleman {
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Expletus Sans', cursive;
+}
+.profil-faaliyet-alanı .maddeler .maddeler-işlemler {
+    margin-top: 2rem;
+}
+.profil-faaliyet-alanı .maddeler .maddeler-işlemler .fa-edit{
+    margin-right: 5px;
+}
+.profil-faaliyet-alanı .maddeler .maddeler-işlemler .fa-trash-alt{
+    margin-right: 5px;
+}
+.profil-faaliyet-alanı .maddeler .maddeler-işlemler a{
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Expletus Sans', cursive;  
+    color: white;
+}
+.profil-faaliyet-alanı .maddeler .maddeler-işlemler .sil{
+    background-color: red;
+}
+.profil-faaliyet-alanı .maddeler .maddeler-işlemler .düzenle{
+    background-color: green;
+}

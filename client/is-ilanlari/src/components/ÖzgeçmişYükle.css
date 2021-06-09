@@ -1,0 +1,84 @@
+.profil-sayfası .profil-içerik-bilgisi{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.profil-sayfası .profil-içerik-bilgisi .başlık{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 0;
+    background-color: rgb(112, 95, 95);
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border-radius: 5px;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.profil-sayfası .profil-içerik-bilgisi .alanlar{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.profil-sayfası .profil-içerik-bilgisi .alanlar .sol-bölüm{
+    width: 100%;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+.profil-sayfası .profil-içerik-bilgisi .alanlar .sol-bölüm .eleman{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    width: 100%;
+    margin: 1rem;
+    align-items: center;
+}
+.profil-sayfası .profil-içerik-bilgisi .alanlar .sol-bölüm .eleman .eleman-ismi{
+    font-size: 1.1rem;
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 600;
+}
+.profil-sayfası .profil-içerik-bilgisi .alanlar .sol-bölüm .eleman .input-alanı{
+    margin-left: 1rem;
+}
+.profil-sayfası .profil-içerik-bilgisi .alanlar .sol-bölüm .eleman .input-alanı input{
+    border: 1px solid rgb(109, 114, 114);
+    padding: .5rem;
+    border-radius: 3px;
+    color: rgb(88, 88, 88);
+}
+.profil-sayfası .profil-içerik-bilgisi .alanlar .sol-bölüm .eleman .input-alanı select{
+    border: 1px solid rgb(109, 114, 114);
+    padding: .5rem;
+    border-radius: 3px;
+    color: rgb(88, 88, 88);
+}
+.profil-sayfası .profil-içerik-bilgisi .alanlar .sağ-bölüm{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+}
+.profil-sayfası .profil-içerik-bilgisi .kaydet-button{
+    width: 100%;
+    background-color: rgb(240, 235, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.profil-sayfası .profil-içerik-bilgisi .kaydet-button a{
+    background-color: green;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 600;
+}
+.profil-sayfası .profil-içerik-bilgisi .kaydet-button a:hover{
+    background-color: rgb(57, 155, 57);
+    text-decoration: none;
+}

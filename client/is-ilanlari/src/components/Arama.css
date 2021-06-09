@@ -1,0 +1,257 @@
+.arama-alanı {
+    width: 70%;
+    margin: 3rem auto;
+    height: auto;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.arama-alanı .arama-sonuçları {
+    text-align: center;
+    min-width: 100%;
+    font-family: 'Merriweather', serif;
+    font-size: 4rem;
+    margin: 2rem auto;
+    border-bottom: rgb(112, 95, 95) solid 5px;
+}
+.arama-alanı .etiketler {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 5px rgb(112, 95, 95) solid;
+    padding-bottom: 2rem;
+}
+.arama-alanı .etiketler p {
+    width: auto;
+    height: auto;
+    background-color: rgb(160, 139, 139);
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+.arama-alanı .sonuçlar {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+.arama-alanı .sonuçlar .şirketler {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    border: 3px solid rgb(112, 95, 95);
+    border-radius: 5px;
+}
+.arama-alanı .sonuçlar .kişiler {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    border: 3px solid rgb(112, 95, 95);
+    border-radius: 5px;
+}
+.arama-alanı .sonuçlar .başlık {
+    margin: 2rem 0 0 0;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+}
+.arama-alanı .sonuçlar .şirketler .eleman{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns:  15% 85%;
+    justify-content: flex-start;
+    border-bottom: 1.5px solid rgb(160, 139, 139);
+    padding: 20px;
+    align-items: center;
+}
+.arama-alanı .sonuçlar .şirketler .eleman .foto{
+    width: 100%;
+    height: auto;
+}
+.arama-alanı .sonuçlar .şirketler .eleman .foto img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.arama-alanı .sonuçlar .şirketler .eleman .açıklama{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.arama-alanı .sonuçlar .şirketler .eleman .açıklama .özellikler{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.arama-alanı .sonuçlar .şirketler .eleman .açıklama .özellikler .isim a{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(65, 55, 55);
+    font-size: 2rem;
+}
+.arama-alanı .sonuçlar .şirketler .eleman .açıklama .özellikler .sektör {
+    font-family: 'EB Garamond', serif;
+    word-break: break-all;
+}
+.arama-alanı .sonuçlar .şirketler .eleman .açıklama .özellikler .konum {
+    font-family: 'EB Garamond', serif;
+}
+.arama-alanı .sonuçlar .şirketler .eleman .açıklama .takip-et{
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+}
+.arama-alanı .sonuçlar .şirketler .eleman .açıklama .takip-et a{
+    background-color: rgb(112, 95, 95);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Passion One', cursive;
+    font-size: 2rem;
+}
+.arama-alanı .sonuçlar .kişiler .eleman{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns:  15% 85%;
+    justify-content: flex-start;
+    border-bottom: 1.5px solid rgb(160, 139, 139);
+    padding: 20px;
+    align-items: center;
+}
+.arama-alanı .sonuçlar .kişiler .eleman .foto{
+    width: 100%;
+    height: auto;
+}
+.arama-alanı .sonuçlar .kişiler .eleman .foto img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.arama-alanı .sonuçlar .kişiler .eleman .açıklama{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.arama-alanı .sonuçlar .kişiler .eleman .açıklama .özellikler{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+.arama-alanı .sonuçlar .kişiler .eleman .açıklama .özellikler .isim a{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(65, 55, 55);
+    font-size: 2rem;
+}
+.arama-alanı .sonuçlar .kişiler .eleman .açıklama .özellikler .sektör {
+    font-family: 'EB Garamond', serif;
+}
+.arama-alanı .sonuçlar .kişiler .eleman .açıklama .özellikler .konum {
+    font-family: 'EB Garamond', serif;
+}
+.arama-alanı .sonuçlar .kişiler .eleman .açıklama .takip-et{
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+}
+.arama-alanı .sonuçlar .kişiler .eleman .açıklama .takip-et a{
+    background-color: rgb(112, 95, 95);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Passion One', cursive;
+    font-size: 2rem;
+}
+@media (min-width: 480px) and (max-width: 991px) {
+   .arama-alanı .arama-sonuçları {
+        margin: 1rem auto;
+        font-size: 3rem;
+   }
+   .arama-alanı .etiketler a {
+        font-size: 1.5rem;    
+    }
+    .arama-alanı {
+        margin: 2rem auto;
+        width: 90%;
+    }
+    .arama-alanı .sonuçlar {
+        width: 100%;
+        margin: 1rem auto;
+    }
+    .arama-alanı .sonuçlar .başlık {
+        margin: 1.8rem 0 0 0;
+        font-size: 2.4rem;
+    }
+    .arama-alanı .sonuçlar .şirketler .eleman .açıklama .özellikler .isim a{
+        font-size: 1.6rem;
+    }
+    .arama-alanı .sonuçlar .kişiler .eleman .açıklama .özellikler .isim a{
+        font-size: 1.6rem;
+    }
+    .arama-alanı .sonuçlar .kişiler .eleman .açıklama .takip-et a{
+        font-size: 1.6rem;
+    }
+    .arama-alanı .sonuçlar .şirketler .eleman .açıklama .takip-et a{
+        font-size: 1.6rem;
+    }
+    .arama-alanı .etiketler {
+        padding-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 479px){
+    .arama-alanı .arama-sonuçları {
+        font-size: 2rem;
+        margin: 1rem auto;
+    }
+    .arama-alanı .etiketler a {
+        font-size: 1.1rem;
+    }
+    .arama-alanı {
+        width: 90%;
+        margin: 1.5rem auto;
+    }
+    .arama-alanı .sonuçlar {
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .arama-alanı .sonuçlar .başlık {
+        margin: 1.5rem 0 0 0;
+        font-size: 1.8rem;
+    }
+    .arama-alanı .sonuçlar .şirketler .eleman .açıklama .özellikler .isim a{
+        font-size: 1.2rem;
+    }
+    .arama-alanı .sonuçlar .kişiler .eleman .açıklama .özellikler .isim a{
+        font-size: 1.2rem;
+    }
+    .arama-alanı .sonuçlar .şirketler .eleman .açıklama .takip-et a{
+        font-size: 1.2rem;
+    }
+    .arama-alanı .sonuçlar .kişiler .eleman .açıklama .takip-et a{
+        font-size: 1.2rem;
+    }
+    .arama-alanı .etiketler {
+        padding-bottom: 1rem;
+    }
+}

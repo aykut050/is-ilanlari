@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+.sayfanın-tamamı{
+    max-height: 100%;
+    width: 90%;
+    margin: 2.5rem auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    visibility: visible;
+}
+.filtreleme{
+    background-color: #d1d1d1;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.filtreleme .arama-yap{
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 5px;
+    justify-content: center;
+    background-color: #3b3a2a;
+}
+.filtreleme .arama-yap .input{
+    padding: 1rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.filtreleme .arama-yap .input input{
+    border: none;
+    outline: none;
+    padding: 1rem .4rem;   
+    border-radius: 4px;
+    font-family: 'Londrina Solid', cursive;
+    margin: 0 auto;
+} 
+.filtreleme .filtreleme-özellikleri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.filtreleme .filtreleme-özellikleri .özellik-alt .özellik button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #aaa44d;
+    color: #344547;
+}
+.filtreleme-özellikleri .özellik{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.filtreleme-özellikleri .özellik p{
+    font-size: 3rem;
+    background-color: #344547;
+    padding: 5px;
+    border-radius: 5px;
+    color: #aaa44d;
+}
+.filtreleme-özellikleri .özellik label{
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+.filtreleme .arama-yap .arama-ikonu{
+    margin: 0 5px;
+    padding: 15px 4px;
+    color: #344547;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    background-color: rgb(169, 156, 182);
+    font-family: 'Londrina Solid', cursive;
+    align-items: center;
+    flex-grow: 1;
+}
+.filtreleme .arama-yap .arama-ikonu img{
+    margin-right: 4px;
+}
+.ilanlar{
+    margin: 0 auto;
+    width: 65%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: flex-start;
+    grid-gap: 10px 10px;
+}
+.ilan-card{
+    background-color: rgb(246, 243, 247);
+    height: auto;
+    text-align: center;
+    border: solid 2px rgb(224, 221, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ilan-card .foto{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 1.5rem 0;
+}
+/* İlan Açıklama */
+.ilan-card .ilan-açıklama{    
+    border-top: 2px solid rgb(224, 221, 221);
+    font-family: 'IBM Plex Serif', serif;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid rgb(224, 221, 221);
+}
+.ilan-açıklama .ilanın-başlığı h5{
+    color: #7D1538;
+    font-weight: 800;
+}
+.ilan-açıklama .ilanın-yeri{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ilan-card .ilan-açıklama .ilanın-açıklaması{
+    margin: 2rem 0;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1.2rem;
+}
+.ilan-açıklama .ilanın-yeri .yer{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #7D1538;
+}
+/* İlan Butonlar */
+.ilan-butonlar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.ilan-butonlar .ilanı-kaydet{
+    padding: 1rem 0;
+    height: 100%;
+    width: 100%;    
+    background-color: rgb(246, 243, 247);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ilan-butonlar .ilanı-kaydet a{
+    color: rgb(204, 81, 81);
+}
+.ilan-butonlar .detaylı-gör{
+    padding: 1rem 0;
+    height: 100%;
+    width: 100%; 
+    background-color: rgb(246, 243, 247);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ilan-butonlar .detaylı-gör a{
+    color: #aaa44d;
+}
+@media (min-width: 480px) and (max-width: 991px) {
+   .sayfanın-tamamı {
+       display: flex;
+       flex-direction: column;
+   }    
+   .sayfanın-tamamı .filtreleme {
+       width: 100%;
+   }
+   .sayfanın-tamamı .filtreleme .filtreleme-özellikleri {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ilanlar {
+        width: 100%;
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 479px){
+    .sayfanın-tamamı {
+        display: flex;
+        flex-direction: column;
+    }
+    .sayfanın-tamamı .filtreleme {
+        width: 100%;
+    }
+    .sayfanın-tamamı .filtreleme .filtreleme-özellikleri{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ilanlar {
+        width: 100%;
+        grid-template-columns: auto;
+    }
+}

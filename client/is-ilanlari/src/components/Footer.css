@@ -1,0 +1,110 @@
+.footer{
+    margin-top: 12rem;
+    z-index: 10;
+    padding: 1rem 3rem;
+    width: 100%;
+    background-color: rgb(163, 134, 134);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.site-hakkında{
+    flex-grow: 1;
+    height: 100%;
+    text-align: center;
+}
+.site-hakkında .elemanlar{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    font-family: 'Londrina Solid', cursive;
+}
+.site-hakkında .elemanlar a{
+    color: white;
+    font-size: 1.2rem;
+}
+.site-hakkında .başlık{
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Wendy One', sans-serif;
+}
+.footer .iş-arayan{
+    flex-grow: 1;
+    height: 100%;
+    text-align: center;
+}
+.iş-arayan .başlık{
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Wendy One', sans-serif;
+}
+.iş-arayan .elemanlar{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    font-family: 'Londrina Solid', cursive;
+}
+.iş-arayan .elemanlar a{
+    color: white;
+    font-size: 1.2rem;
+}
+.işveren{
+    flex-grow: 1;
+    height: 100%;
+    text-align: center;
+}
+.işveren .başlık{
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Wendy One', sans-serif;
+}
+.işveren .elemanlar{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    font-family: 'Londrina Solid', cursive;
+}
+.işveren .elemanlar a{
+    color: white;
+    font-size: 1.2rem;
+}
+.sosyal-medya{
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.sosyal-medya .başlık{
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Wendy One', sans-serif;
+    text-align: center;
+}
+.sosyal-medya .ikonlar{
+    display: flex;
+    flex-direction: column;  
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+}
+.sosyal-medya .ikonlar a{
+    margin: 2px 0;
+}
+@media (min-width: 480px) and (max-width: 991px) {
+    .footer {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 479px) {
+    .footer {
+        flex-direction: column;
+    }
+}

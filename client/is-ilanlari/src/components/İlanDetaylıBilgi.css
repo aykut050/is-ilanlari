@@ -1,0 +1,181 @@
+.ilan-detaylı-bilgi{
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    overflow: hidden;
+    margin: 2rem auto;
+}
+.ilan-detaylı-bilgi .sol-bölüm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+.ilan-detaylı-bilgi .sol-bölüm .foto{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.ilan-detaylı-bilgi .sol-bölüm .ilan-başlık{
+    width: 100%;
+}
+.ilan-detaylı-bilgi .sol-bölüm .ilan-başlık h6{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    padding: 1rem;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .iş-tanımı .başlık {
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: red;
+    border-bottom: 5px rgb(112, 95, 95) solid;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .iş-tanımı .açıklama {
+    margin-top: 2rem;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .şirket-bilgileri .başlık {
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: red;
+    border-bottom: 5px rgb(112, 95, 95) solid;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .şirket-bilgileri .açıklama {
+    margin-top: 2rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .şirket-bilgileri .açıklama .eleman{
+    display: flex;
+    flex-direction: column;
+    margin: 3px 0;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .şirket-bilgileri .açıklama .eleman .özellik{
+    text-align: initial;
+    font-weight: 700;
+    font-size: large;
+    white-space: normal;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .şirket-bilgileri .açıklama .eleman .değer{
+    padding: 0 0 0 1rem;
+    white-space: normal;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .iletişim-bilgileri .başlık {
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: red;
+    border-bottom: 5px rgb(112, 95, 95) solid;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .iletişim-bilgileri .açıklama{
+    margin-top: 2rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .iletişim-bilgileri .açıklama .eleman{
+    display: flex;
+    flex-direction: column;
+    margin: 3px 0;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .iletişim-bilgileri .açıklama .eleman .özellik{
+    font-weight: 700;
+    font-size: large;
+    white-space: normal;
+    text-align: initial;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .iletişim-bilgileri .açıklama .eleman .değer{
+    padding: 0 0 0 1rem;
+    white-space: normal;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .ilan-işlemleri {
+    margin: 3.5rem 0;
+    border-top: solid rgb(112,95,95) 5px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    padding-top: 3rem;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .ilan-işlemleri .ilanı-kaydet button{
+    border-radius: 3px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: green;
+    outline: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .ilan-işlemleri .ilanı-kaydet button .fa-save{
+    margin-right: 5px;
+}
+.ilan-detaylı-bilgi .sol-bölüm .içerik .ilan-işlemleri .ilana-başvur button{
+    border-radius: 3px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: green;
+    outline: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.ilan-detaylı-bilgi .sağ-bölüm .benzer-ilanlar .tablo{
+    border: 2px solid rgb(112, 95, 95);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.ilan-detaylı-bilgi .sağ-bölüm .benzer-ilanlar .tablo .ana-başlık{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    font-weight: 700;
+    padding: .5rem;
+    font-family: 'Staatliches', cursive;
+    border-bottom: 2px solid rgb(112, 95, 95);
+    background-color: rgb(112, 95, 95);
+}
+.ilan-detaylı-bilgi .sağ-bölüm .benzer-ilanlar .tablo .benzer-ilanlar-elemanları{
+    display: flex;
+    flex-direction: column;
+}
+.ilan-detaylı-bilgi .sağ-bölüm .benzer-ilanlar .tablo .benzer-ilanlar-elemanları .eleman{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1rem;
+}
+.ilan-detaylı-bilgi .sağ-bölüm .benzer-ilanlar .tablo .benzer-ilanlar-elemanları .eleman .photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ilan-detaylı-bilgi .sağ-bölüm .benzer-ilanlar .tablo .benzer-ilanlar-elemanları .eleman .açıklama{
+    padding: 10px;
+}
+@media (min-width: 480px) and (max-width: 991px) {
+    .ilan-detaylı-bilgi {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 479px){
+    .ilan-detaylı-bilgi {
+        display: flex;
+        flex-direction: column;
+    }
+}

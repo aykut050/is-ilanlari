@@ -1,0 +1,56 @@
+.işveren-bildirimler-alanı {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.işveren-bildirimler-alanı .başlık{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 0;
+    background-color: rgb(112, 95, 95);
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border-radius: 5px;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.işveren-bildirimler-alanı .elemanlar{
+    width: 75%;
+    height: auto;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(112, 95, 95);
+    border-radius: 8px;
+}
+.işveren-bildirimler-alanı .elemanlar .eleman{
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgb(112, 95, 95);
+}
+.işveren-bildirimler-alanı .eleman .foto{
+    width: 10%;
+    height: auto;
+}
+.işveren-bildirimler-alanı .eleman .foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.işveren-bildirimler-alanı .eleman .açıklama{
+    width: 90%;
+    height: auto;
+    padding: 0 1rem;
+    font-family: 'Shippori Mincho', serif;
+}

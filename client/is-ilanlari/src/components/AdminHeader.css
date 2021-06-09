@@ -1,0 +1,288 @@
+.header{
+    width: 100%;
+    height: 9rem;
+    background: rgb(82, 69, 69);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-right: 4rem;
+}
+.logo{
+    height: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3rem;
+}
+.logo:hover{
+    text-decoration: none;
+}
+.tüm-ilanlar-ve-arama {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.kişi-şirket-arama .fa-search {
+    color: white;
+    margin-right: 5px;
+}
+.kişi-şirket-arama button {
+    border: none;
+    margin-left: 5px;
+    color: rgb(112, 95, 95);
+    outline: none;
+    font-weight: 700;
+    padding: 4px;
+    border-radius: 4px;
+}
+.tüm-ilanlar-ve-arama input {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.tüm-ilanlar{
+    height: auto;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1rem;
+}
+.işçi-işveren-butonları{
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header .işçi-işveren-butonları .iş-veren{
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.header .işçi-işveren-butonları .iş-veren .iş-veren-buton{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 2px solid white;
+    color: white;
+    padding: 2px 20px;
+    border-radius: 3px;
+    margin-right: 1rem;
+    position: relative;
+}
+.header .hamgurger-menu-list{
+    display: none;
+}
+.header .işçi-işveren-butonları .iş-veren .iş-veren-buton .isim{
+    height: auto;
+    width: auto;
+}
+.header .işçi-işveren-butonları .iş-veren .iş-veren-buton .aşağı-ok{
+    margin-left: 6px;
+}
+.header .işçi-işveren-butonları .iş-veren .iş-veren-buton-görünmeyen,
+.header .işçi-işveren-butonları .iş-arayan .iş-arayan-buton-görünmeyen{
+    display: none;
+    background-color: rgb(255, 255, 255);
+    min-width: 100px;
+    position: absolute;
+    z-index: 1;
+}
+.header .işçi-işveren-butonları .iş-veren:hover .iş-veren-buton-görünmeyen,
+.header .işçi-işveren-butonları .iş-arayan:hover .iş-arayan-buton-görünmeyen{
+    display: block;
+    border-radius: 2px;
+    background-color: white;
+}
+.header .işçi-işveren-butonları .iş-veren .iş-veren-buton-görünmeyen a,
+.header .işçi-işveren-butonları .iş-arayan:hover .iş-arayan-buton-görünmeyen a{
+    display: block;
+    padding: 1px 0;
+    color: rgb(112, 95, 95);
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.header .işçi-işveren-butonları .iş-veren .iş-veren-buton-görünmeyen a:hover,
+.header .işçi-işveren-butonları .iş-arayan .iş-arayan-buton-görünmeyen a:hover{
+    text-decoration: none;
+    background-color: rgb(112, 95, 95);
+    color: white;
+}
+.header .işçi-işveren-butonları .iş-arayan{
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.header .işçi-işveren-butonları .iş-arayan .iş-arayan-buton{
+    font-family: 'Oswald', sans-serif; 
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 2px solid white;
+    color: white;
+    padding: 2px 20px;
+    border-radius: 3px;
+    position: relative;
+}
+.header .işçi-işveren-butonları .iş-arayan .iş-arayan-buton .isim{
+    height: auto;
+    width: auto;
+}
+.header .işçi-işveren-butonları  .iş-arayan .iş-arayan-buton .aşağı-ok{
+    margin-left: 6px; 
+}
+.header .icon {
+    display: none;
+}
+.header .profil-ikon{
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.header .profil-ikon .profil-ikon-a{
+    position: relative;
+    display: inline-block;
+}
+.header .profil-ikon .profil-ikon-a:hover{
+    text-decoration: none;
+}
+.header .profil-ikon .profil-içindekiler{
+    display: none;
+    background-color: rgb(255, 255, 255);
+    min-width: 200px;
+    position: absolute;
+    z-index: 1;
+}
+.header .profil-ikon:hover .profil-içindekiler{
+    display: block;
+    border-radius: 2px;
+    background-color: white;
+}
+.header .profil-ikon .profil-içindekiler a{
+    display: block;
+    padding: 1px 0;
+    color: rgb(112, 95, 95);
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.header .profil-ikon .profil-içindekiler a:hover{
+    text-decoration: none;
+    background-color: rgb(112, 95, 95);
+    color: white;
+}
+
+@media (min-width: 480px) and  (max-width: 991px) {
+    .header{
+        width: 100%;
+        height: 7rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+    .header .logo{
+        height: auto;
+        width: auto;
+        font-size: 2.5rem;
+    }
+    .header .profil-ikon{
+        display: none;
+    }
+    .header .tüm-ilanlar-ve-arama{
+        display: none;
+    }
+    .header .işçi-işveren-butonları {
+        display: none;
+    }
+    .header .icon {
+        width: auto;
+        height: auto;
+        display: block;
+        color: white;
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header .icon .fa-bars {
+        width: auto;
+        height: auto;
+        color: white;
+    }
+}
+@media screen and (max-width: 479px) {
+    .header{
+        min-width: 100%;
+        height: 6rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 2rem;
+        margin: 0;
+        flex: 100%;
+    }
+    .header .logo{
+        height: auto;
+        width: auto;
+        font-size: 2rem;
+    }
+    .header .profil-ikon{
+        display: none;
+    }
+    .header .tüm-ilanlar-ve-arama{
+        display: none;
+    }
+    .header .işçi-işveren-butonları{
+        display: none;
+    }
+    .header .icon{
+        width: auto;
+        height: auto;
+        display: block;
+        color: white;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header .icon .fa-bars{
+        width: auto;
+        height: auto;
+        color: white;
+    }
+    .header .hamgurger-menu-list{
+        display: none;
+    }
+    .header .hamgurger-menu-list {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 300px;
+        background-color: rgb(201, 176, 176);
+        padding-top: 2rem;
+    }
+    .hamgurger-menu-list > * {
+        margin: 0 5px;
+        padding: 18px 10px;
+        color: black;
+        font-weight: 800;
+    }
+}

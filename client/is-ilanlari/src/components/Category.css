@@ -1,0 +1,92 @@
+.kategorilere-göre-ilanlar{
+    width: 80%;
+    height: auto;
+    border: none;
+    background: rgb(112,95,95);
+    background: linear-gradient(90deg, rgba(112,95,95,1) 0%, rgba(112,95,95,1) 35%, rgba(112,95,95,1) 100%);    
+    border-radius: 25px;
+    padding: 0 5rem;
+    margin: .4rem auto;
+    font-size: 1.4rem;
+    background-color: #F7DD72;
+}
+.kategorilere-göre-ilanlar .başlık{
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    border-bottom: 3px white solid;
+    padding: 1rem 0;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Paprika', cursive;
+}
+.kategorilere-göre-ilanlar .içerikler{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: flex-start;
+    padding: 15px 0;
+}
+.kategorilere-göre-ilanlar .içerikler a{
+    height: auto;
+    font-size: 1.3rem;
+    font-weight: 700;
+    width: 20%;
+    padding: 3px 0;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+}
+.kategorilere-göre-ilanlar .içerikler a::before{
+    content: ".";
+    font-size: 2rem;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    height: auto;
+    width: auto;
+    color: white;
+}
+@media (min-width: 480px) and  (max-width: 991px) {
+    .kategorilere-göre-ilanlar{
+        padding: 0 4rem;
+        margin: 1.5rem auto;
+    }
+    .kategorilere-göre-ilanlar .başlık{
+        border-bottom: 3px white solid;
+        padding: 1rem 0;
+        font-size: 2rem;
+        font-weight: 900;
+        font-family: 'Paprika', cursive;
+    }
+    .kategorilere-göre-ilanlar .içerikler{
+        padding: 15px 0;
+    }
+    .kategorilere-göre-ilanlar .içerikler a{
+        font-size: 1.1rem;
+        width: 25%;
+    }
+}
+@media screen and (max-width: 479px) {
+    .kategorilere-göre-ilanlar{
+        padding: 0 3rem;
+        margin: 1.2rem auto;
+    }
+    .kategorilere-göre-ilanlar .başlık{
+        border-bottom: 3px white solid;
+        padding: 1rem 0;
+        font-size: 1rem;
+        font-weight: 700;
+        font-family: 'Paprika', cursive;
+    }
+    .kategorilere-göre-ilanlar .içerikler{
+        padding: 15px 0;
+    }
+    .kategorilere-göre-ilanlar .içerikler a{
+        font-size: 1.1rem;
+        width: 50%;
+    }
+}

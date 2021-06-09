@@ -1,0 +1,63 @@
+.bildirimler-alanı {
+    width: 70%;
+    min-height: 50vh;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bildirimler-alanı .başlık{
+    width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 4rem;
+    padding: 10px;
+    border-bottom: 5px solid rgb(112, 95, 95);
+}
+.bildirimler-alanı .elemanlar{
+    width: 75%;
+    height: auto;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(112, 95, 95);
+    border-radius: 8px;
+}
+.bildirimler-alanı .elemanlar .eleman{
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgb(112, 95, 95);
+}
+.bildirimler-alanı .eleman .foto{
+    width: 10%;
+    height: auto;
+}
+.bildirimler-alanı .eleman .foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bildirimler-alanı .eleman .açıklama{
+    width: 90%;
+    height: auto;
+    padding: 0 1rem;
+    font-family: 'Shippori Mincho', serif;
+}
+@media (min-width: 480px) and (max-width: 991px) {
+    .bildirimler-alanı .başlık {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 479px) {
+    .bildirimler-alanı .başlık {
+        font-size: 2rem;
+    }
+}

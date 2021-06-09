@@ -1,0 +1,15 @@
+.carousel {
+    width: 80%;
+    height: auto;
+    margin: 2rem auto;
+}
+.carousel a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    background-color: #00008B;
+    color: #fff;
+    margin: 0 15px;
+}

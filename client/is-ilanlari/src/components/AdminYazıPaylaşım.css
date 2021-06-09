@@ -1,0 +1,76 @@
+.admin-yazı-paylaşım {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+}
+.admin-yazı-paylaşım .başlık {
+    width: 100%;
+    height: auto;
+    background-color: rgb(112, 95, 95);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border-radius: 5px;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.admin-yazı-paylaşım .yazı-başlık {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.admin-yazı-paylaşım .yazı-başlık input {
+    padding: 5px;
+}
+.admin-yazı-paylaşım .yazı-başlık p {
+    text-align: center;
+    width: 100%;
+    margin: 1rem auto;
+    font-size: 2rem;
+    border-bottom: 5px solid rgb(112, 95, 95);
+    font-weight: 800;
+    color: rgb(255, 0, 0);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.admin-yazı-paylaşım .yazı-içerik p {
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 2rem;
+    border-bottom: 5px solid rgb(112, 95, 95);
+    font-weight: 800;
+    color: rgb(255, 0, 0);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.admin-yazı-paylaşım .maddeler-işlemler {
+    margin-top: 5rem;
+}
+.admin-yazı-paylaşım .maddeler-işlemler button{
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Expletus Sans', cursive;  
+    color: white;
+}
+.admin-yazı-paylaşım .maddeler-işlemler .düzenle{
+    background-color: rgb(66, 66, 248);
+}
+.admin-yazı-paylaşım .maddeler-işlemler .düzenle .fa-edit{
+    margin-right: 5px;
+}
+.admin-yazı-paylaşım .maddeler-işlemler .kaydet .fa-save{
+    margin-right: 5px;
+}
+.admin-yazı-paylaşım .maddeler-işlemler .kaydet{
+    background-color: rgb(66, 66, 248);
+}
+.admin-yazı-paylaşım .maddeler-işlemler .kaydet{
+    background-color: rgb(39, 170, 39);
+}

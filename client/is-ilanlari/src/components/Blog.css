@@ -1,0 +1,159 @@
+.blog-sayfası-tamamı{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 2rem
+}
+.blog-sayfası-tamamı .üst-kısım{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-sayfası-tamamı .üst-kısım .kategoriler{
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.blog-sayfası-tamamı .üst-kısım .kategoriler .butonlar{
+    padding: .5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.blog-sayfası-tamamı .üst-kısım .kategoriler .butonlar a{
+    background-color: rgb(32, 16, 16);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;    
+    font-weight: 600;
+    margin: 5px 5px;
+}
+.blog-sayfası-tamamı .başlık{
+    margin: 2rem 0;
+    color: rgb(32, 16, 16);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+    border-bottom: 5px solid #7D1538;
+}
+.blog-sayfası-tamamı .sayfa-içeriği {
+    width: 90%;
+    height: 100%;
+    overflow: hidden;
+    margin: 1rem auto;
+}
+.blog-sayfası-tamamı .sayfa-içeriği .sol-bölüm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.blog-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yazılar {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;   
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: auto auto auto;
+}
+.blog-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yazılar .yazı {
+    display: flex;
+    flex-direction: column;
+}
+.blog-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yazılar .yazı img {
+    object-fit: cover;
+    max-width: 200px;
+    max-height: 200px;
+}
+.blog-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yazılar .yazı .açıklama {
+    text-align: center;
+
+}
+.blog-sayfası-tamamı .sayfa-içeriği .sağ-bölüm .yazılar .tablo{
+    border: 2px solid #7FB7BE;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.blog-sayfası-tamamı .sayfa-içeriği .sağ-bölüm .yazılar .tablo .ana-başlık{
+    text-align: center;
+    font-size: x-large;
+    color: #7D1538;
+    font-weight: 700;
+    padding: .5rem;
+    font-family: 'Staatliches', cursive;
+    border-bottom: 2px solid #7FB7BE;
+}
+.blog-sayfası-tamamı .sayfa-içeriği .sağ-bölüm .yazılar .tablo .diğer-yazılar{
+    display: flex;
+    flex-direction: column;
+}
+.blog-sayfası-tamamı .sayfa-içeriği .sağ-bölüm .yazılar .tablo .diğer-yazılar .eleman{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1rem;
+}
+.blog-sayfası-tamamı .sayfa-içeriği .sağ-bölüm .yazılar .tablo .diğer-yazılar .eleman .photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog-sayfası-tamamı .sayfa-içeriği .sağ-bölüm .yazılar .tablo .diğer-yazılar .eleman .açıklama{
+    padding: 10px;
+    white-space: normal;
+}
+.giriş-formu-bölümü {   
+    min-height: 50vh;
+    width: 50%;
+    height: auto;
+    margin: 2rem auto;    
+    background-color: rgb(160, 139, 139);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.giriş-formu-bölümü .başlık {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 3px rgb(226, 219, 219) solid;
+    color: white;
+}
+.fa-sign-in-alt{
+    margin-right: 2px;
+}
+.giriş-formu-bölümü .içerik {
+    margin: 2rem;    
+}
+@media (min-width: 480px) and (max-width: 991px) {
+    .blog-sayfası-tamamı .sayfa-içeriği {
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-sayfası-tamamı .sayfa-içeriği .sağ-bölüm {
+        width: 60%;
+        margin: 2rem auto 1rem;
+    }
+}
+@media (max-width: 479px) {
+    .blog-sayfası-tamamı .sayfa-içeriği {
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-sayfası-tamamı .sayfa-içeriği .sağ-bölüm {
+        width: 60%;
+        margin: 2rem auto 1rem;
+    }
+}

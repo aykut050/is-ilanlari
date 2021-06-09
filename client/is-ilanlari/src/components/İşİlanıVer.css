@@ -1,0 +1,58 @@
+.profil-ilan-ver {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+.profil-ilan-ver .başlık {
+    width: 100%;
+    height: auto;
+    background-color: rgb(112, 95, 95);
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border-radius: 5px;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.profil-ilan-ver .iş-tanımı-başlık {
+    text-align: center;
+    margin: 3rem 0;
+    width: 50%;
+    border-bottom: 5px solid rgb(112, 95, 95);
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(201, 55, 55);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1px;
+}
+.profil-ilan-ver .maddeler-işlemler {
+    margin-top: 5rem;
+}
+.profil-ilan-ver .maddeler-işlemler button{
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Expletus Sans', cursive;  
+    color: white;
+}
+.profil-ilan-ver .maddeler-işlemler .düzenle{
+    background-color: rgb(66, 66, 248);
+}
+.profil-ilan-ver .maddeler-işlemler .düzenle .fa-edit{
+    margin-right: 5px;
+}
+ .profil-ilan-ver .maddeler-işlemler .kaydet .fa-save{
+    margin-right: 5px;
+}
+.profil-ilan-ver .maddeler-işlemler .kaydet{
+    background-color: rgb(66, 66, 248);
+}
+.profil-ilan-ver .maddeler-işlemler .kaydet{
+    background-color: rgb(39, 170, 39);
+}

@@ -1,0 +1,33 @@
+.profil-sayfası{
+    width: 80%;
+    height: 100%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.profil-sayfası .profil-filtreleme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+}
+.profil-sayfası .profil-filtreleme a{
+    padding: 2rem 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+    display: flex;
+    font-family: 'Architects Daughter', cursive;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;  
+    width: 100%;    
+    background-color: rgb(112, 95, 95);
+    color: white;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.profil-sayfası .profil-filtreleme a:hover{
+    background-color: rgb(196, 224, 37);
+}

@@ -1,0 +1,87 @@
+.giriş-formu-bölümü-işarayan {   
+    min-height: 50vh;
+    width: 50%;
+    height: auto;
+    margin: 2rem auto;    
+    background-color: rgb(160, 139, 139);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.giriş-formu-bölümü-işarayan .başlık {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 3px rgb(226, 219, 219) solid;
+    color: white;
+}
+.fa-sign-in-alt{
+    margin-right: 2px;
+}
+.giriş-formu-bölümü-işarayan .içerik {
+    margin: 2rem;    
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+.form-container label {
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form-container #username-input {
+    margin-bottom: 1rem;
+}
+.fa-address-card{
+    margin-right: 5px;
+}
+.form-container #password-input {
+    margin-bottom: 1rem;
+}
+.form-container input{
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+.form-container .button {
+    background-color: rgb(170, 194, 122);
+    color: black;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+    margin: .5rem 0 1rem 0;
+}
+.form-container .diğerleri{
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.form-container .diğerleri a{
+    color: white;
+}
+.form-container #kayıt-ol {
+    background-color: rgb(131, 240, 131);
+}
+.diğerleri-üye-ol{
+    display: flex;
+    justify-content: center;
+}
+.diğerleri-üye-ol a{
+    color: white;
+}
+@media (min-width: 480px) and (max-width: 991px) {
+    .giriş-formu-bölümü-işarayan {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 479px){
+    .giriş-formu-bölümü-işarayan {
+        width: 80%;
+    }
+}

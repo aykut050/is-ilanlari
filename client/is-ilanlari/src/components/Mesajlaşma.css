@@ -1,0 +1,218 @@
+.profil-mesajlaşma{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+
+}
+.profil-mesajlaşma .profil-mesajlaşma-başlık{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 0;
+    background-color: rgb(112, 95, 95);
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border-radius: 5px;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.profil-mesajlaşma .mesajlaşma-alanı {
+    width: 95%;
+    max-height: 500px;
+    margin: 2rem auto;
+    border: rgb(112, 95, 95) solid 5px;
+    border-radius: 10px;
+}
+/* .profil-mesajlaşma .mesajlaşma-alanı .kişiler {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-right: 3px rgb(112, 95, 95) solid;
+    overflow-y: auto;
+    height: auto;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .kişiler .arama-alanı1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 3px rgb(112, 95, 95) solid; 
+    background-color: rgb(112, 95, 95);
+    height: auto;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .kişiler .arama-alanı1 .fa-search {
+    color: white;
+    margin-right: 2px;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .kişiler .arama-alanı1 textarea{
+    resize: none;
+    padding: 3px;
+    margin-left: 2px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .kişiler .sohbet-kişileri {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .kişiler .sohbet-kişileri .eleman {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px gray solid;
+    padding: 15px;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .kişiler .sohbet-kişileri .eleman .foto{
+    width: 30%;
+    height: auto;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .kişiler .sohbet-kişileri .eleman .foto img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .kişiler .sohbet-kişileri .eleman .kişi{
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 3px;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .kişiler .sohbet-kişileri .eleman .kişi .isim-zaman{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .kişiler .sohbet-kişileri .eleman .kişi .isim-zaman .isim{
+    overflow: hidden;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .kişiler .sohbet-kişileri .eleman .kişi .mesaj{
+    width: 100%;
+    height: auto;
+    font-family: 'Source Serif Pro', serif;
+    color: black;
+} */
+.profil-mesajlaşma .mesajlaşma-alanı .mesajlar-alanı {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .mesajlar-alanı .mesaj-bilgi {
+    width: 100%;
+    height: auto;
+    background-color: rgb(194, 165, 165);
+    color: white;
+    padding: 10px;
+    font-size: 3rem;
+    font-family: 'Lalezar', cursive;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid rgb(112, 95, 95);
+}
+.profil-mesajlaşma .mesajlaşma-alanı .mesajlar-alanı .içerik {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .mesajlar-alanı .içerik .mesajlar {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 5px solid rgb(112, 95, 95);
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 0 5px;
+    max-height: 300px;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .mesajlar-alanı .içerik .mesajlar .karşıdan-gönderen {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    margin: 2px 0 18px;
+    white-space: normal; 
+
+}
+.profil-mesajlaşma .mesajlaşma-alanı .mesajlar-alanı .içerik .mesajlar .karşıdan-gönderen .mesaj {
+    white-space: normal; 
+    padding: 5px;
+    background-color: rgb(175, 156, 156);
+    color: white; 
+    width: auto ;
+    border-radius: 5px;
+    max-width: 50%;
+    word-wrap: break-word;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .mesajlar-alanı .içerik .mesajlar .karşıya-giden {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    height: auto;
+    margin: 5px 0;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .mesajlar-alanı .içerik .mesajlar .karşıya-giden .mesaj {
+    white-space: normal;
+    background-color: rgb(112, 95, 95);
+    padding: 5px;    
+    color: white;
+    border-radius: 5px;
+    width: auto;
+    max-width: 50%
+}
+.profil-mesajlaşma .mesajlaşma-alanı .mesajlar-alanı .içerik .gönderme {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .mesajlar-alanı .içerik .gönderme {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding: 10px;
+    align-items: center;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .mesajlar-alanı .içerik .gönderme textarea{
+    padding: 8px;
+    border: rgb(112, 95, 95) solid 1px;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    margin-right: 5px;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .mesajlar-alanı .içerik .gönderme button{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.profil-mesajlaşma .mesajlaşma-alanı .mesajlar-alanı .içerik .gönderme button .fa-share{
+    margin-right: 3px;
+}
+p{
+    margin: 0;
+}

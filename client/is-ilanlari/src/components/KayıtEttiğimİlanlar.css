@@ -1,0 +1,101 @@
+.profil-sayfası .profil-kayıtlı-ilanlar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.profil-sayfası .profil-kayıtlı-ilanlar .profil-kayıtlı-ilanlar-başlık{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 0;
+    background-color: rgb(112, 95, 95);
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.profil-sayfası .profil-kayıtlı-ilanlar .profil-kayıtlı-ilanlar-içerik{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 40px;
+}
+.profil-sayfası .profil-kayıtlı-ilanlar .profil-kayıtlı-ilanlar-içerik .kayıtlı-ilan{
+    background-color: rgb(246, 243, 247);
+    height: auto;
+    text-align: center;
+    border: solid 2px rgb(224, 221, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.profil-sayfası .profil-kayıtlı-ilanlar .profil-kayıtlı-ilanlar-içerik .kayıtlı-ilan .foto{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 1.5rem 0;
+}
+.profil-sayfası .profil-kayıtlı-ilanlar .profil-kayıtlı-ilanlar-içerik .kayıtlı-ilan .ilan-açıklama{    
+    border-top: 2px solid rgb(224, 221, 221);
+    font-family: 'IBM Plex Serif', serif;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid rgb(224, 221, 221);
+}
+.profil-sayfası .profil-kayıtlı-ilanlar .profil-kayıtlı-ilanlar-içerik .kayıtlı-ilan .ilan-açıklama .ilanın-başlığı h5{
+    color: #7D1538;
+    font-weight: 800;
+}
+.profil-sayfası .profil-kayıtlı-ilanlar .profil-kayıtlı-ilanlar-içerik .kayıtlı-ilan .ilan-açıklama .ilanın-yeri{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profil-sayfası .profil-kayıtlı-ilanlar .profil-kayıtlı-ilanlar-içerik .kayıtlı-ilan .ilan-açıklama .ilanın-açıklaması{
+    margin: 2rem 0;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1.2rem;
+}
+.profil-sayfası .profil-kayıtlı-ilanlar .profil-kayıtlı-ilanlar-içerik .kayıtlı-ilan .ilan-açıklama .ilanın-yeri .yer{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #7D1538;
+}
+/* İlan Butonlar */
+.profil-sayfası .profil-kayıtlı-ilanlar .profil-kayıtlı-ilanlar-içerik .kayıtlı-ilan .ilan-butonlar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.profil-sayfası .profil-kayıtlı-ilanlar .profil-kayıtlı-ilanlar-içerik .kayıtlı-ilan .ilan-butonlar .ilanı-kaydet{
+    padding: 1rem 0;
+    height: 100%;
+    width: 100%;    
+    background-color: rgb(246, 243, 247);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.profil-sayfası .profil-kayıtlı-ilanlar .profil-kayıtlı-ilanlar-içerik .kayıtlı-ilan .ilan-butonlar .ilanı-kaydet a{
+    color: rgb(204, 81, 81);
+}
+.profil-sayfası .profil-kayıtlı-ilanlar .profil-kayıtlı-ilanlar-içerik .kayıtlı-ilan .ilan-butonlar .detaylı-gör{
+    padding: 1rem 0;
+    height: 100%;
+    width: 100%; 
+    background-color: rgb(246, 243, 247);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.profil-sayfası .profil-kayıtlı-ilanlar .profil-kayıtlı-ilanlar-içerik .kayıtlı-ilan .ilan-butonlar .detaylı-gör a{
+    color: #aaa44d;
+}

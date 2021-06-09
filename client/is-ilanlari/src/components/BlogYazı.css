@@ -1,0 +1,230 @@
+.blog-yazı-sayfası-tamamı{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği {
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    overflow: hidden;
+    margin: 2rem auto;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yazılar {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;   
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: auto auto auto;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yazının-baş-componentleri {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yazının-baş-componentleri .yazı-fotosu {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yazının-baş-componentleri .yazı-fotosu {
+    object-fit: cover;
+    display: flex;
+    justify-content: flex-start;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yazının-baş-componentleri .başlık-tarih {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2rem 0;
+    padding: 0 1rem;
+    align-items: center;
+    border-bottom: 5px rgb(112, 95, 95) solid;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yazının-baş-componentleri .başlık-tarih .tarih{
+    font-family: 'Reggae One', cursive;
+    font-size: medium;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yazının-baş-componentleri .başlık-tarih .yazı-başlık h3{
+    font-family: 'Truculenta', sans-serif;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yazı {
+    width: 100%;
+    height: auto;
+    font-family: 'Merriweather', serif;
+    white-space: normal;
+    border-bottom: 5px rgb(112, 95, 95) solid; 
+    padding: 0 0 1rem 1rem;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yorum-alanı {
+    margin: 4rem 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yorum-alanı .yorum-yapma {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yorum-alanı .yorum-yapma .yorum-textarea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yorum-alanı .yorum-yapma .yorum-textarea textarea{
+    outline: none;
+    border: 1px solid rgb(112, 95, 95);
+    border-radius: 3px;
+    padding: 5px;
+    resize: none;
+    margin-left: 1rem;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yorum-alanı .yorum-yapma .gönderme {
+    margin-left: 1rem;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yorum-alanı .yorum-yapma .gönderme button{
+    padding: .7rem;
+    background-color: rgb(61, 119, 61);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    outline: none;
+}
+.fa-share{
+    margin-right: 3px;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yorum-alanı .yorumlar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding-left: 2rem;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yorum-alanı .yorumlar .yorum {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yorum-alanı .yorumlar .yorum .yorum-açıklama {
+    margin-left: 1rem;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sağ-bölüm{
+    padding: 0 10px;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sağ-bölüm .yazılar .tablo{
+    border: 2px solid #7FB7BE;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sağ-bölüm .yazılar .tablo .ana-başlık{
+    text-align: center;
+    font-size: x-large;
+    color: #7D1538;
+    font-weight: 700;
+    padding: .5rem;
+    font-family: 'Staatliches', cursive;
+    border-bottom: 2px solid #7FB7BE;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sağ-bölüm .yazılar .tablo .diğer-yazılar{
+    display: flex;
+    flex-direction: column;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sağ-bölüm .yazılar .tablo .diğer-yazılar .eleman{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1rem;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sağ-bölüm .yazılar .tablo .diğer-yazılar .eleman .photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog-yazı-sayfası-tamamı .sayfa-içeriği .sağ-bölüm .yazılar .tablo .diğer-yazılar .eleman .açıklama{
+    padding: 10px;
+    white-space: normal;
+}
+@media (min-width: 480px) and (max-width: 991px) {
+    .blog-yazı-sayfası-tamamı .sayfa-içeriği {
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yazının-baş-componentleri .başlık-tarih {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yorum-alanı .yorum-yapma {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yorum-alanı .yorum-yapma .yorum-textarea {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 1rem;
+    }
+    .blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yorum-alanı .yorum-yapma .yorum-textarea img {
+        margin-bottom: 0.5rem;
+    }
+    .blog-yazı-sayfası-tamamı .sayfa-içeriği .sağ-bölüm{
+        width: 50%;
+        margin: 0 auto
+    }
+ }
+ @media screen and (max-width: 479px){
+    .blog-yazı-sayfası-tamamı .sayfa-içeriği {
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yazının-baş-componentleri .başlık-tarih {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yorum-alanı .yorum-yapma {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yorum-alanı .yorum-yapma .yorum-textarea {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 1rem;
+    }
+    .blog-yazı-sayfası-tamamı .sayfa-içeriği .sol-bölüm .yorum-alanı .yorum-yapma .yorum-textarea img {
+        margin-bottom: 0.5rem;
+    }
+    .blog-yazı-sayfası-tamamı .sayfa-içeriği .sağ-bölüm{
+        width: 50%;
+        margin: 0 auto
+    }
+ }

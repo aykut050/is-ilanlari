@@ -1,0 +1,84 @@
+.arama-alanı-index{
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin: 2rem auto;
+    text-align: center;
+}
+.arama-alanı-index .arama-kısmı{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    border: 3px solid rgb(190, 174, 174);
+    padding: 15px;
+    font-size: 1.4rem;
+    font-family: 'Sintony', sans-serif;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.arama-alanı-index .arama-kısmı .arama-inputu{
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 1.4rem;
+}
+.arama-alanı-index .arama-butonu{
+    height: auto;
+    border: 3px solid rgb(190, 174, 174);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left-style: none;
+    align-items: center;
+    padding: 15px; 
+    font-size: 1.4rem;
+    background-color: rgb(190, 174, 174);
+    color: white;
+    font-family: 'Sintony', sans-serif;
+}
+.fa-angle-down {
+    color: white;
+}
+.fa-search {
+    color: rgb(112, 95, 95);
+}
+@media (min-width: 480px) and (max-width: 991px) {
+    .arama-alanı-index {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        margin: 2rem auto;
+    }
+    .arama-alanı-index .şehir-kısmı{
+        display: none;
+    }
+    .arama-alanı-index .arama-kısmı {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        font-size: 1rem;
+    }
+    .arama-alanı-index .arama-kısmı .arama-inputu{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 479px) {
+    .arama-alanı-index {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        margin: 2rem auto;
+    }
+    .arama-alanı-index .şehir-kısmı{
+        display: none;
+    }
+    .arama-alanı-index .arama-kısmı {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        font-size: 1rem;
+    }   
+    .arama-alanı-index .arama-kısmı .arama-inputu{
+        font-size: 0.8rem;
+    }
+}
